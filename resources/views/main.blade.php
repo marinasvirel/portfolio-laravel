@@ -13,15 +13,15 @@
     <header>
         <div class="container header-container">
             <a href="#">
-              <div class="header-logo">
-                <img src="{{ asset('asset/img/context/logo.svg') }}" alt="logo">
-              </div>
+                <div class="header-logo">
+                    <img src="{{ asset('asset/img/context/logo.svg') }}" alt="logo">
+                </div>
             </a>
             <div class="header-btns">
                 <div class="header-switch">
                     <div class="header-switch-circle"></div>
                 </div>
-                <a href="#" class="header-entry">
+                <a href="profile" class="header-entry">
                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -59,7 +59,9 @@
         <div class="main-box container">
             <section class="certificates">
                 <h2 class="certificates-title">Сертификаты</h2>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut explicabo dolor, incidunt officia error sequi repellat beatae modi architecto dolorum, aliquid, nobis recusandae cum odio. Laborum reiciendis vero doloremque! Laudantium!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut explicabo dolor, incidunt officia error
+                sequi repellat beatae modi architecto dolorum, aliquid, nobis recusandae cum odio. Laborum reiciendis
+                vero doloremque! Laudantium!
                 <!-- вставить адаптивный слайдер !!!-->
                 <div class="certificates-slider">
                     {{-- <img src="img/decor/certificate.svg" alt="certificate"> --}}
@@ -81,7 +83,9 @@
             </section>
             <section class="competencies">
                 <h2 class="competencies-title">Компетенции</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, consequatur. Ipsum assumenda commodi deleniti libero sit doloremque dolore blanditiis repellat id omnis eveniet in, consequuntur maxime sed corporis illum earum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, consequatur. Ipsum assumenda commodi
+                deleniti libero sit doloremque dolore blanditiis repellat id omnis eveniet in, consequuntur maxime sed
+                corporis illum earum.
                 <div class="competencies-img">
                     {{-- <img src="img/decor/competence.svg" alt="competence"> --}}
                 </div>

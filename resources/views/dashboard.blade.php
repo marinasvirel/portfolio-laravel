@@ -14,4 +14,5 @@
             </div>
         </div>
     </div>
+    {{-- <div>{{ Auth::user()->name }}</div> --}}
 </x-app-layout>
