@@ -18,10 +18,28 @@
         @method('patch')
 
         <div>
-            <x-input-label for="name" :value="__('Name')" />
+            <x-input-label for="name" :value="__('Имя')" />
             <x-text-input id="name" name="name" type="text" class="mt-1 block w-full" :value="old('name', $user->name)" required autofocus autocomplete="name" />
             <x-input-error class="mt-2" :messages="$errors->get('name')" />
         </div>
+
+      <div>
+        <x-input-label for="surname" :value="__('Фамилия')" />
+        <x-text-input id="surname" name="surname" type="text" class="mt-1 block w-full" :value="old('Surname', $user->surname)" required  autocomplete="surname" />
+        <x-input-error class="mt-2" :messages="$errors->get('surname')" />
+      </div>
+
+      <div>
+        <x-input-label for="profession" :value="__('Профессия')" />
+        <x-text-input id="profession" name="profession" type="text" class="mt-1 block w-full" :value="old('profession', $user->profession)" required  autocomplete="profession" />
+        <x-input-error class="mt-2" :messages="$errors->get('profession')" />
+      </div>
+
+      <div>
+        <x-input-label for="greeting" :value="__('О себе')" />
+        <x-textarea id="greeting" name="greeting" type="text" class="mt-1 block w-full" :value="old('greeting', $user->greeting)" required  autocomplete="greeting" ></x-textarea>
+        <x-input-error class="mt-2" :messages="$errors->get('greeting')" />
+      </div>
 
         <div>
             <x-input-label for="email" :value="__('Email')" />
