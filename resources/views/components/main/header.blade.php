@@ -9,7 +9,7 @@
       <div class="header-switch">
         <div class="header-switch-circle"></div>
       </div>
-      <a href="../profile" class="header-entry">
+      <a href="../../profile" class="header-entry">
         <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
              xmlns="http://www.w3.org/2000/svg">
           <path

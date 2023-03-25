@@ -13,11 +13,11 @@
 <body>
 
 
-<x-header></x-header>
+<x-main.header></x-main.header>
 
 @yield('content')
 
-<x-footer></x-footer>
+<x-main.footer></x-main.footer>
 
 <script src="{{ asset('asset/js/index.js') }}"></script>
 

@@ -1,0 +1,82 @@
+.feedback {
+  padding: 40px 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: radial-gradient(50% 50% at 50% 50%, #78B1EA 0%, #FFFFFF 99.48%);
+}
+
+.feedback-title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.feedback.darkTheme {
+  background: radial-gradient(50% 50% at 50% 50%, #78B1EA 0%, #1C2127 99.48%);
+}
+
+.feedback-form {
+  max-width: 428px;
+  margin: 0 auto;
+}
+
+.feedback-form-field, .feedback-form-textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #9FC7F0;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.feedback-form-textarea {
+  resize: none;
+  height: 100%;
+  max-height: 160px;
+}
+
+.feedback-form__attach-file {
+  margin-bottom: 10px;
+}
+
+.feedback-form__attach-file #file-input {
+  display: none;
+}
+
+.feedback-form__attach-file label[for="file-input"] {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.feedback-form__attach-file .icon__attach-file {
+  width: 11px;
+  height: 22px;
+  margin-right: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.feedback-form__attach-file:hover .icon__attach-file {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.feedback-form__btn-send {
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  background: #1C548D;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.feedback-form__btn-send:hover {
+  background: #246db8;
+}

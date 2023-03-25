@@ -22,7 +22,9 @@
   <div class="main-box container">
     <section class="certificates">
       <h2 class="certificates-title">Сертификаты</h2>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut explicabo dolor, incidunt officia error sequi repellat beatae modi architecto dolorum, aliquid, nobis recusandae cum odio. Laborum reiciendis vero doloremque! Laudantium!
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut explicabo dolor, incidunt officia error
+      sequi repellat beatae modi architecto dolorum, aliquid, nobis recusandae cum odio. Laborum reiciendis
+      vero doloremque! Laudantium!
       <!-- вставить адаптивный слайдер !!!-->
       <div class="certificates-slider">
         {{-- <img src="img/decor/certificate.svg" alt="certificate"> --}}
@@ -57,7 +59,7 @@
     </section>
   </div>
   <section class="feedback">
-    <h2 class="feedback-title">Обратная связь</h2>
+    <x-main.feedback></x-main.feedback>
   </section>
 </main>
 @endsection
