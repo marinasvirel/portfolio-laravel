@@ -1,0 +1,102 @@
+.competencies {
+  background-color: transparent;
+}
+
+.competencies-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.competencies-list-li {
+  margin: 7px 12px;
+  background-repeat: no-repeat;
+  background-size: 40px 28px;
+  background-position: 0 0;
+  padding: 5px 0px;
+  padding-left: 50px;
+}
+
+.laravel {
+  background-image: url(../img/competence/laravel.svg);
+}
+
+.css {
+  background-image: url(../img/competence/css3.svg);
+}
+
+.php {
+  background-image: url(../img/competence/php.svg);
+}
+
+.cplus {
+  background-image: url(../img/competence/cplus.svg);
+}
+
+.csharp {
+  background-image: url(../img/competence/csharp.svg);
+}
+
+.figma {
+  background-image: url(../img/competence/figma.svg);
+}
+
+.java {
+  background-image: url(../img/competence/java.svg);
+}
+
+.js {
+  background-image: url(../img/competence/js.svg);
+}
+
+.linux {
+  background-image: url(../img/competence/linux.svg);
+}
+
+.mysql {
+  background-image: url(../img/competence/mysql.svg);
+}
+
+.photoshop {
+  background-image: url(../img/competence/photoshop.svg);
+}
+
+.phpstorm {
+  background-image: url(../img/competence/phpstorm.svg);
+}
+
+.postgresql {
+  background-image: url(../img/competence/postgresql.svg);
+}
+
+.pyton {
+  background-image: url(../img/competence/pyton.svg);
+}
+
+.react {
+  background-image: url(../img/competence/react.svg);
+}
+
+.sqlite {
+  background-image: url(../img/competence/sqlite.svg);
+}
+
+.ubuntu {
+  background-image: url(../img/competence/ubuntu.svg);
+}
+
+.vs {
+  background-image: url(../img/competence/vs.svg);
+}
+
+.vsc {
+  background-image: url(../img/competence/vsc.svg);
+}

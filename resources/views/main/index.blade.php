@@ -44,18 +44,13 @@
     </section>
     <section class="competencies">
       <h2 class="competencies-title">Компетенции</h2>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, consequatur. Ipsum assumenda commodi deleniti libero sit doloremque dolore blanditiis repellat id omnis eveniet in, consequuntur maxime sed corporis illum earum.
       <div class="competencies-img">
-         <img src="img/decor/competence.svg" alt="competence">
+        <ul class="competencies-list">
+          @foreach($data['data']['competencies'] as $competence)
+            <li class="competencies-list-li {{ $competence->class }}">{{ $competence->name }}</li>
+          @endforeach
+        </ul>
       </div>
-
-{{--      <div class="competencies-img">--}}
-{{--        <ul class="competencies-list">--}}
-{{--          @foreach($data['data']['competencies'] as $competence)--}}
-{{--            <li class="competencies-list-li {{ $competence->class }}">{{ $competence->name }}</li>--}}
-{{--          @endforeach--}}
-{{--        </ul>--}}
-{{--      </div>--}}
     </section>
     <section class="calculator">
       <h2 class="calculator-title">Калькулятор</h2>

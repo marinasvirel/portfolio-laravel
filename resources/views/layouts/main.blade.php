@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Портфолио</title>
   <link rel="stylesheet" href="{{ asset('asset/css/style.css') }}">
+  <link rel="stylesheet" href="{{ asset('asset/css/competence.css') }}">
 </head>
 
 <body>
