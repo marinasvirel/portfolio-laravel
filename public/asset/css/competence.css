@@ -25,6 +25,36 @@
   padding-left: 50px;
 }
 
+.competencies-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.competencies-form-block {
+  display: flex;
+  width: 48%;
+  min-width: 450px;
+  padding: 15px 15px;
+  border-bottom: 1px solid #78B1EA;
+  border-left: 1px solid #78B1EA;
+  outline: none;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+h3.competence-title {
+  font-size: 22px;
+  font-weight: 500;
+  width: 40%;
+  text-align: left;
+}
+
+.competence-choose {
+  display: flex;
+  width: 30%;
+}
+
 .laravel {
   background-image: url(../img/competence/laravel.svg);
 }
