@@ -1,8 +1,9 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Profile') }}
+            {{ __('Профиль') }}
         </h2>
+        <a href="main">На главную</a>
     </x-slot>
 
     <div class="py-12">

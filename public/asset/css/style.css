@@ -11,10 +11,6 @@ body {
   color: var(--black);
 }
 
-section {
-  background-color: rgb(224, 224, 238);
-}
-
 .auth-title{
   text-align: center;
   margin-bottom: 20px;
