@@ -13,8 +13,6 @@ class Competence extends Model
 
   protected $fillable = [
     'active',
-    'name',
-    'class',
   ];
 
 }

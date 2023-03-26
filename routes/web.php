@@ -39,7 +39,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/competence', [CompetenceController::class, 'edit'])->name('competence.edit');
+Route::get('/competence', [CompetenceController::class, 'index'])->name('competence.index');
 Route::patch('/competence', [CompetenceController::class, 'update'])->name('competence.update');
 
 require __DIR__.'/auth.php';

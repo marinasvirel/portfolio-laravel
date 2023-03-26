@@ -22,8 +22,6 @@ class CompetenceUpdateRequest extends FormRequest
     public function rules(): array
     {
         return [
-          'name' => ['string'],
-          'class' => ['string'],
           'active' => ['boolean']
         ];
     }
