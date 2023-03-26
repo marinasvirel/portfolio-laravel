@@ -1,6 +1,6 @@
 <header>
   <div class="container header-container">
-    <a href="#">
+    <a href="main">
       <div class="header-logo">
         <img src="{{ asset('asset/img/context/logo.svg') }}" alt="logo">
       </div>
