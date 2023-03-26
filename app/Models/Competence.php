@@ -11,8 +11,10 @@ class Competence extends Model
 
   protected $table = 'competencies';
 
-  protected $quarded = [
-    'id',
+  protected $fillable = [
+    'active',
+    'name',
+    'class',
   ];
 
 }
