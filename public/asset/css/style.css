@@ -9,14 +9,15 @@ body {
   font-family: 'Roboto';
   font-size: 16px;
   color: var(--black);
+  background-color: white;
 }
 
-.auth-title{
+.auth-title {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.auth-form-box{
+.auth-form-box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,20 +25,20 @@ body {
   height: 100vh;
 }
 
-.auth-form{
+.auth-form {
   display: flex;
   flex-direction: column;
   width: 420px;
 }
 
-@media(max-width:420px){
-  .auth-form{
+@media(max-width:420px) {
+  .auth-form {
     width: 100vw;
     padding: 10px;
   }
 }
 
-.auth-form button{
+.auth-form button {
   background-color: var(--dark-blue);
   color: white;
   padding: 10px;
@@ -47,7 +48,7 @@ body {
   font-size: 16px;
 }
 
-.auth-input{
+.auth-input {
   width: 100%;
   background-color: white;
   padding: 10px;
@@ -56,21 +57,21 @@ body {
   margin-bottom: 20px;
 }
 
-.auth-input::placeholder{
+.auth-input::placeholder {
   font-size: 16px;
   color: #605F5F;
 }
 
-.auth-remind{
+.auth-remind {
   display: block;
   margin-bottom: 10px;
 }
 
-.auth-remember{
+.auth-remember {
   margin-bottom: 10px;
 }
 
-.profile-update{
+.profile-update {
   padding: 30px;
   background-color: white;
   box-shadow: 0px 4px 6px 4px rgba(28, 84, 141, 0.2);
@@ -79,12 +80,12 @@ body {
   text-align: center;
 }
 
-.profile-title{
+.profile-title {
   margin-bottom: 20px;
 }
 
 .profile-update input,
-.profile-update textarea{
+.profile-update textarea {
   display: block;
   padding: 5px;
   width: 100%;
@@ -92,20 +93,24 @@ body {
   margin-top: 7px;
   border: none;
   border-bottom: 1px solid #78B1EA;
-  border-left: 1px solid #78B1EA;
+  /* border-left: 1px solid #78B1EA; */
   border-right: 1px solid #78B1EA;
   outline: none;
   border-radius: 3px;
   font-size: 20px;
 }
 
-.profile-update label{
+.profile-update textarea{
+  min-height: 150px;
+}
+
+.profile-update label {
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
 }
 
-.profile-update button{
+.profile-update button {
   padding: 10px;
   background-color: var(--dark-blue);
   color: white;
