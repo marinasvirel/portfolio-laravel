@@ -59,7 +59,17 @@
     </section>
   </div>
   <section class="feedback">
-    <x-main.feedback></x-main.feedback>
+    {{-- <x-main.feedback></x-main.feedback> --}}
+    <div class="container">
+      <h2 class="feedback-title">Обратная связь</h2>
+      <form class="feedback-form" action="">
+        @csrf
+        <input type="text" placeholder="Ваше имя">
+        <input type="emai" placeholder="Ваш e-mail">
+        <textarea placeholder="Ваше сообщение"></textarea>
+        <button>Отправить</button>
+      </form>
+    </div>
   </section>
 </main>
 @endsection

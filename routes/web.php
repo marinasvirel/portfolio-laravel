@@ -20,10 +20,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/competence', function () {
-    return view('competence');
-});
-
 Route::get('/main', [MainController::class, 'index'])->name('main');
 
 // Route::get('/competence', [CompetenceController::class, 'index'])->name('competence');
