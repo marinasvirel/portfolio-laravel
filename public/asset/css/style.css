@@ -259,13 +259,16 @@ header {
 
 .project-list {
   display: flex;
-  gap: 20px;
-  height: 100%;
-  align-items: center;
+  overflow: auto;
 }
 
-.project-item {
-  display: flex;
+.project-item{
+  min-width: 50%;
+  height: 322px;
+  overflow: auto;
+}
+
+.project-item img{
   width: 100%;
 }
 

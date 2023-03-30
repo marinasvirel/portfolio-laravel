@@ -30,17 +30,30 @@
                                     alt="certificate">
                             </a>
                         </li>
-												<li class="certificate-item">
-													<a href="{{ asset('asset/pdf/certificate.pdf') }}" target="_blank" rel="noopener noreferrer">
-															<img class="cat" src="{{ asset('asset/img/context/certificate.jpg') }}"
-																	alt="certificate">
-													</a>
-											</li>
+                        <li class="certificate-item">
+                            <a href="{{ asset('asset/pdf/certificate.pdf') }}" target="_blank" rel="noopener noreferrer">
+                                <img class="cat" src="{{ asset('asset/img/context/certificate.jpg') }}"
+                                    alt="certificate">
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </section>
             <section class="projects">
                 <h2 class="project-title">Выполненные проекты</h2>
+                <div class="project-slider">
+                    <ul class="project-list">
+                        <li class="project-item">
+                            <img src="{{ asset('asset/img/context/project-1.jpg') }}" alt="project">
+                        </li>
+                        <li class="project-item">
+                            <img src="{{ asset('asset/img/context/project-2.jpg') }}" alt="project">
+                        </li>
+                        <li class="project-item">
+                            <img src="{{ asset('asset/img/context/project-1.jpg') }}" alt="project">
+                        </li>
+                    </ul>
+                </div>
             </section>
             <section class="competencies">
                 <h2 class="competencies-title">Компетенции</h2>
