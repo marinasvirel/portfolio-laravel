@@ -218,8 +218,34 @@ header {
   margin-bottom: 10px;
 }
 
-.certificates-slider img {
+.certificate-slider{
+  background-image: url("../img/decor/certificate.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  padding-top: 74%;
+  overflow: auto;
+}
+
+.certificate-list{
+  min-width: 100%;
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.certificate-item{
+  position: relative;
+  min-width: 100%;
+}
+
+.certificate-item img{
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
 }
 
