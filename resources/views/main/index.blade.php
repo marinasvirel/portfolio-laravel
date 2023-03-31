@@ -5,7 +5,7 @@
         <section class="prime">
             <div class="container prime-container">
                 <div class="prime-img">
-                    <img class="cat" src="{{ asset('asset/img/context/cat-test.jpg') }}" alt="cat">
+                    <img class="cat" src="{{ asset($data['data']['user']['0']->avatar) }}" alt="cat">
                 </div>
                 <div class="prime-text-box">
                     <div class="text">
