@@ -2,7 +2,7 @@
 @import url("root.css");
 @import url("reset.css");
 @import url("global.css");
-@import url("competence.css");
+/* @import url("competence.css"); */
 @import url("feedback.css");
 
 body {
@@ -99,7 +99,7 @@ body {
   font-size: 20px;
 }
 
-.profile-update textarea{
+.profile-update textarea {
   min-height: 150px;
 }
 
@@ -154,7 +154,6 @@ header {
   background-color: var(--black);
 }
 
-
 /*--- header---</> */
 
 /* ---prime---<> */
@@ -207,79 +206,174 @@ header {
 
 /*---- prime----</> */
 
-.main-box {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 20px;
-  margin-bottom: 20px;
+/*---- certificate----<> */
+
+.sliders-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.certificates {
+  width: 50%;
+}
+
+.swiper-slide img {
+  width: 100%;
 }
 
 .certificates-title {
   margin-bottom: 10px;
 }
 
-.certificate-slider{
-  background-image: url("../img/decor/certificate.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  width: 100%;
-  padding-top: 74%;
+/*---- certificate----</> */
+
+/*---- competencies----<> */
+
+.competencies-title {
+  margin-bottom: 10px;
+}
+
+.competencies {
+  width: 50%;
+  padding-right: 20px;
+  max-height: 400px;
   overflow: auto;
 }
 
-.certificate-list{
-  min-width: 100%;
+.competencies-list {
   display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.certificate-item{
-  position: relative;
-  min-width: 100%;
+.competencies-item {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: auto 30px;
+  padding-left: 60px;
 }
 
-.certificate-item img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+.laravel {
+  background-image: url("../img/competence/laravel.svg");
+}
+
+.css {
+  background-image: url("../img/competence/css3.svg");
+}
+
+.php {
+  background-image: url("../img/competence/php.svg");
+}
+
+.cplus {
+  background-image: url("../img/competence/cplus.svg");
+}
+
+.csharp {
+  background-image: url("../img/competence/csharp.svg");
+}
+
+.figma {
+  background-image: url("../img/competence/figma.svg");
+}
+
+.java {
+  background-image: url("../img/competence/java.svg");
+}
+
+.js {
+  background-image: url("../img/competence/js.svg");
+}
+
+.linux {
+  background-image: url("../img/competence/linux.svg");
+}
+
+.mysql {
+  background-image: url("../img/competence/mysql.svg");
+}
+
+.photoshop {
+  background-image: url("../img/competence/photoshop.svg");
+}
+
+.phpstorm {
+  background-image: url("../img/competence/phpstorm.svg");
+}
+
+.postgresql {
+  background-image: url("../img/competence/postgresql.svg");
+}
+
+.pyton {
+  background-image: url("../img/competence/pyton.svg");
+}
+
+.react {
+  background-image: url("../img/competence/react.svg");
+}
+
+.sqlite {
+  background-image: url("../img/competence/sqlite.svg");
+}
+
+.ubuntu {
+  background-image: url("../img/competence/ubuntu.svg");
+}
+
+.vs {
+  background-image: url("../img/competence/vs.svg");
+}
+
+.vsc {
+  background-image: url("../img/competence/vsc.svg");
+}
+
+.competencies-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.competencies-form-block {
+  display: flex;
+  width: 48%;
+  min-width: 450px;
+  padding: 15px 15px;
+  border-bottom: 1px solid #78B1EA;
+  border-left: 1px solid #78B1EA;
+  outline: none;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.competence-choose {
+  display: flex;
+  width: 30%;
+}
+
+/*---- competencies----</> */
+
+/*---- projects----<> */
+
+.projects {
+  margin-bottom: 60px;
 }
 
 .project-title {
   margin-bottom: 10px;
 }
 
-.project-slider {
-  height: 100%;
+.projects-slide{
+  max-height: 500px;
+  overflow: hidden;
 }
 
-.project-list {
-  display: flex;
-  overflow: auto;
-}
-
-.project-item{
-  min-width: 50%;
-  height: 322px;
-  overflow: auto;
-}
-
-.project-item img{
-  width: 100%;
-}
-
-.competencies-title {
-  margin-bottom: 10px;
-}
-
-.competencies-img {
-  display: flex;
-  width: 100%;
-}
+/*---- projects----</> */
 
 .calculator-title {
   margin-bottom: 10px;
@@ -291,14 +385,14 @@ header {
   margin-bottom: 60px;
 }
 
-.feedback-form{
+.feedback-form {
   display: flex;
   flex-direction: column;
   width: 428px;
 }
 
 .feedback-form input,
-.feedback-form textarea{
+.feedback-form textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #9FC7F0;
@@ -309,11 +403,11 @@ header {
   border-radius: 3px;
 }
 
-.feedback-form textarea{
+.feedback-form textarea {
   height: 160px;
 }
 
-.feedback-form button{
+.feedback-form button {
   width: 100%;
   background-color: var(--dark-blue);
   color: white;
@@ -324,76 +418,8 @@ header {
   transition: background-color .3s linear;
 }
 
-.feedback-form button:hover{
+.feedback-form button:hover {
   background-color: var(--dark-blue-hover);
-}
-
-@media(max-width:448px){
-  .feedback-form{
-    width: calc(100vw - 20px);
-  }
-}
-
-@media(max-width:1400px) {
-  .main-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .certificates {
-    order: 1;
-    width: calc(50% - 10px);
-  }
-
-  .competencies {
-    order: 2;
-    width: calc(50% - 10px);
-  }
-
-  .projects {
-    order: 3;
-    width: 100%;
-  }
-
-  .calculator {
-    order: 4;
-    width: 100%;
-  }
-}
-
-@media(max-width:1040px) {
-  h1 {
-    font-size: 32px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-}
-
-@media(max-width:750px) {
-  .container {
-    padding: 0 10px;
-  }
-
-  .prime-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    overflow: hidden;
-  }
-
-  .prime-img {
-    min-width: 300px;
-    min-height: 300px;
-    padding-top: 0;
-  }
-
-  .prime-text-box {
-    text-align: center;
-  }
 }
 
 /* ---footer---<> */
@@ -441,3 +467,53 @@ footer {
 }
 
 /* ---footer---</> */
+
+/* ---media---<> */
+
+@media(max-width:1000px) {
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .certificates {
+    width: 100%;
+  }
+
+  .competencies {
+    width: 100%;
+    margin-bottom: 60px;
+    padding-right: 0;
+  }
+}
+
+@media(max-width:750px) {
+
+  .prime-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+  }
+
+  .prime-img {
+    min-width: 300px;
+    min-height: 300px;
+    padding-top: 0;
+  }
+
+  .prime-text-box {
+    text-align: center;
+  }
+}
+
+/* ---media---</> */

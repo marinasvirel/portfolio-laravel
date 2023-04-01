@@ -19,55 +19,74 @@
                 </div>
             </div>
         </section>
-        <div class="main-box container">
-            <section class="certificates">
-                <h2 class="certificates-title">Сертификаты</h2>
-                <div class="certificate-slider">
-                    <ul class="certificate-list">
-                        <li class="certificate-item">
-                            <a href="{{ asset('asset/pdf/certificate.pdf') }}" target="_blank" rel="noopener noreferrer">
-                                <img class="cat" src="{{ asset('asset/img/context/certificate.jpg') }}"
-                                    alt="certificate">
-                            </a>
-                        </li>
-                        <li class="certificate-item">
-                            <a href="{{ asset('asset/pdf/certificate.pdf') }}" target="_blank" rel="noopener noreferrer">
-                                <img class="cat" src="{{ asset('asset/img/context/certificate.jpg') }}"
-                                    alt="certificate">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="projects">
-                <h2 class="project-title">Выполненные проекты</h2>
-                <div class="project-slider">
-                    <ul class="project-list">
-                        <li class="project-item">
-                            <img src="{{ asset('asset/img/context/project-1.jpg') }}" alt="project">
-                        </li>
-                        <li class="project-item">
-                            <img src="{{ asset('asset/img/context/project-2.jpg') }}" alt="project">
-                        </li>
-                        <li class="project-item">
-                            <img src="{{ asset('asset/img/context/project-1.jpg') }}" alt="project">
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="competencies">
-                <h2 class="competencies-title">Компетенции</h2>
-                <div class="competencies-img">
+        <div class="container">
+            <div class="sliders-container">
+                <section class="competencies">
+                    <h2 class="competencies-title">Компетенции</h2>
                     <ul class="competencies-list">
                         @foreach ($data['data']['competencies'] as $competence)
-                            <li class="competencies-list-li {{ $competence->class }}">{{ $competence->name }}</li>
+                            <li class="competencies-item {{ $competence->class }}">
+                                <strong>{{ $competence->name }}</strong>
+                            </li>
                         @endforeach
                     </ul>
+                </section>
+                <section class="certificates">
+                    <h2 class="certificates-title">Сертификаты</h2>
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="{{ asset('asset/img/context/certificate-1.svg') }}" alt="img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('asset/img/context/certificate-2.svg') }}" alt="img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('asset/img/context/certificate-3.svg') }}" alt="img">
+                            </div>
+                        </div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+        <section class="projects">
+            <div class="container">
+                <h2 class="project-title">Выполненные проекты</h2>
+                <div class="swiper swiper-2">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide projects-slide">
+                            <img src="{{ asset('asset/img/context/project-1.jpg') }}" alt="img">
+                        </div>
+                        <div class="swiper-slide projects-slide">
+                            <img src="{{ asset('asset/img/context/project-2.jpg') }}" alt="img">
+                        </div>
+                        <div class="swiper-slide projects-slide">
+                            <img src="{{ asset('asset/img/context/project-1.jpg') }}" alt="img">
+                        </div>
+                        <div class="swiper-slide projects-slide">
+                            <img src="{{ asset('asset/img/context/project-2.jpg') }}" alt="img">
+                        </div>
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
                 </div>
-            </section>
-            <section class="calculator">
-                <h2 class="calculator-title">Калькулятор</h2>
-            </section>
+            </div>
+        </section>
+        <section class="calculator">
+            <h2 class="calculator-title">Калькулятор</h2>
+        </section>
         </div>
         <section class="feedback">
             {{-- <x-main.feedback></x-main.feedback> --}}
