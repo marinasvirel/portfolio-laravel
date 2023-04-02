@@ -17,7 +17,7 @@ class CompetenciesQueryBuilder extends QueryBuilder
 
   function getAll(): Collection
   {
-    return $this->model->get();
+    return $this->model->orderBy('name')->get();
   }
 
   /**
@@ -25,6 +25,6 @@ class CompetenciesQueryBuilder extends QueryBuilder
    */
   public function getActiveCompetence(): Collection
   {
-    return $this->model->where('active', '1')->get();
+    return $this->model->where('active', '1')->orderBy('name')->get();
   }
 }

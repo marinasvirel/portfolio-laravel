@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CompetenceController;
+use App\Http\Controllers\FeedbackController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -21,6 +22,10 @@ Route::get('/', function () {
 });
 
 Route::get('/main', [MainController::class, 'index'])->name('main');
+Route::post('/main', [MainController::class, 'store']);
+
+Route::get('/feedback', [FeedbackController::class, 'index'])->name('feedback.index');
+Route::post('/feedback', [FeedbackController::class, 'index'])->name('feedback.send');
 
 // Route::get('/competence', [CompetenceController::class, 'index'])->name('competence');
 
