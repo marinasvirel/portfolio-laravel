@@ -368,7 +368,7 @@ header {
   margin-bottom: 10px;
 }
 
-.projects-slide{
+.projects-slide {
   max-height: 500px;
   overflow: hidden;
 }
@@ -387,6 +387,7 @@ header {
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
+  background: radial-gradient(50% 50% at 50% 50%, #78B1EA 0%, #FFFFFF 99.48%);
 }
 
 .feedback-form {
