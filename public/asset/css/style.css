@@ -3,7 +3,7 @@
 @import url("reset.css");
 @import url("global.css");
 /* @import url("competence.css"); */
-@import url("feedback.css");
+/* @import url("feedback.css"); */
 
 body {
   font-family: 'Roboto';
@@ -376,6 +376,10 @@ header {
 /*---- projects----</> */
 
 .calculator-title {
+  margin-bottom: 10px;
+}
+
+.feedback-title {
   margin-bottom: 10px;
 }
 

@@ -97,7 +97,7 @@
                     <input name="name" type="text" placeholder="Ваше имя" required>
                     <input name="email" type="emai" placeholder="Ваш e-mail" required>
                     <textarea name="message" placeholder="Ваше сообщение" required></textarea>
-                    <button type="submit">Отправить</button>
+                    <button type="submit" name="send">Отправить</button>
                 </form>
             </div>
         </section>
