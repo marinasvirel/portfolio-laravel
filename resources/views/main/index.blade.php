@@ -70,16 +70,24 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide projects-slide">
-                            <img src="{{ asset('asset/img/context/project-1.jpg') }}" alt="img">
+                            <a href="https://github.com/marinasvirel/portfolio-laravel" target="_blank" rel="noopener noreferrer">
+                                <img src="{{ asset('asset/img/context/project-1.jpg') }}" alt="img">
+                            </a>
                         </div>
                         <div class="swiper-slide projects-slide">
-                            <img src="{{ asset('asset/img/context/project-2.jpg') }}" alt="img">
+                            <a href="https://github.com/marinasvirel/portfolio-laravel" target="_blank" rel="noopener noreferrer">
+                                <img src="{{ asset('asset/img/context/project-2.jpg') }}" alt="img">
+                            </a>
                         </div>
                         <div class="swiper-slide projects-slide">
-                            <img src="{{ asset('asset/img/context/project-1.jpg') }}" alt="img">
+                            <a href="https://github.com/marinasvirel/portfolio-laravel" target="_blank" rel="noopener noreferrer">
+                                <img src="{{ asset('asset/img/context/project-1.jpg') }}" alt="img">
+                            </a>
                         </div>
                         <div class="swiper-slide projects-slide">
-                            <img src="{{ asset('asset/img/context/project-2.jpg') }}" alt="img">
+                            <a href="https://github.com/marinasvirel/portfolio-laravel" target="_blank" rel="noopener noreferrer">
+                                <img src="{{ asset('asset/img/context/project-2.jpg') }}" alt="img">
+                            </a>
                         </div>
                     </div>
 
