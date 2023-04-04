@@ -38,13 +38,19 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <img src="{{ asset('asset/img/context/certificate-1.svg') }}" alt="img">
+                                <a href="{{ asset('asset/pdf/certificate-1.pdf') }}" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('asset/img/context/certificate-1.svg') }}" alt="img">
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <img src="{{ asset('asset/img/context/certificate-2.svg') }}" alt="img">
+                                <a href="{{ asset('asset/pdf/certificate-2.pdf') }}" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('asset/img/context/certificate-2.svg') }}" alt="img">
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <img src="{{ asset('asset/img/context/certificate-3.svg') }}" alt="img">
+                                <a href="{{ asset('asset/pdf/certificate-3.pdf') }}" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('asset/img/context/certificate-3.svg') }}" alt="img">
+                                </a>
                             </div>
                         </div>
 
