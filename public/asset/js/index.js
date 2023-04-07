@@ -1,10 +1,8 @@
 const swiper = new Swiper('.swiper', {
-  // Optional parameters
   direction: 'horizontal',
   loop: true,
   speed: 1000,
 
-  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -12,14 +10,12 @@ const swiper = new Swiper('.swiper', {
 });
 
 const swiper2 = new Swiper('.swiper-2', {
-  // Optional parameters
   direction: 'horizontal',
   loop: true,
   speed: 1000,
   slidesPerView: 1,
   spaceBetween: 0,
 
-  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -42,3 +38,11 @@ upButton.addEventListener('click', function () {
     behavior: "smooth",
   });
 });
+
+const switchBtn = document.querySelector(".header-switch");
+const body = document.querySelector("body");
+
+switchBtn.addEventListener("click", function(){
+  body.classList.toggle("dark");
+})
+

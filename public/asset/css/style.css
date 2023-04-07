@@ -375,9 +375,15 @@ header {
 
 /*---- projects----</> */
 
+/*---- calc----<> */
+
 .calculator-title {
   margin-bottom: 10px;
 }
+
+/*---- calc----</> */
+
+/*---- feedback----<> */
 
 .feedback-title {
   margin-bottom: 10px;
@@ -416,7 +422,8 @@ header {
   width: 100%;
   background-color: var(--dark-blue);
   color: white;
-  font-weight: 500;
+  font-family: sans-serif;
+  font-weight: 600;
   padding: 10px;
   font-size: 16px;
   border-radius: 3px;
@@ -426,6 +433,8 @@ header {
 .feedback-form button:hover {
   background-color: var(--dark-blue-hover);
 }
+
+/*---- feedback----</> */
 
 /* ---footer---<> */
 
@@ -472,6 +481,46 @@ footer {
 }
 
 /* ---footer---</> */
+
+/* ---dark---<> */
+
+body.dark {
+  background-color: var(--black);
+  color: white;
+}
+
+body.dark .header-switch{
+  background-color: var(--black);
+}
+
+body.dark .header-switch-circle{
+  background-color: white;
+  right: 5px;
+  left: auto;
+}
+
+body.dark .feedback{
+  background: radial-gradient(50% 50% at 50% 50%, #78B1EA 0%, #1C2127 99.48%);
+}
+
+body.dark .feedback-form button{
+  background-color: var(--light-blue);
+  color: var(--black);
+}
+
+body.dark .feedback-form button:hover{
+  background-color: var(--light-blue-hover);
+}
+
+body.dark .header-entry svg path {
+  fill: white;
+}
+
+body.dark .footer-up svg path {
+  fill: white;
+}
+
+/* ---dark---</> */
 
 /* ---media---<> */
 
