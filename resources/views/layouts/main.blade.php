@@ -22,6 +22,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="{{ asset('asset/js/index.js') }}"></script>
+<script src="{{ asset('asset/js/calc.js') }}"></script>
 
 </body>
 
