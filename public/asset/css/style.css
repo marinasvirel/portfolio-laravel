@@ -472,6 +472,7 @@ header {
 }
 
 .feedback {
+  width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
@@ -481,7 +482,7 @@ header {
 .feedback-form {
   display: flex;
   flex-direction: column;
-  width: 428px;
+  min-width: 428px;
 }
 
 .feedback-form input,
@@ -652,9 +653,9 @@ body.dark .footer-up svg path {
   }
 }
 
-@media(max-width: 448px) {
-  .feedback-form{
-    width: 100%;
+@media(max-width:480px){
+  .feedback-form {
+    min-width: calc(100% - 20px);
   }
 }
 

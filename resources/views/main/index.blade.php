@@ -203,16 +203,14 @@
         </div>
         <section class="feedback">
             {{-- <x-main.feedback></x-main.feedback> --}}
-            <div class="container">
-                <h2 class="feedback-title">Обратная связь</h2>
                 <form class="feedback-form" action="" method="post">
+                    <h2 class="feedback-title">Обратная связь</h2>
                     @csrf
                     <input name="name" type="text" placeholder="Ваше имя" required>
                     <input name="email" type="emai" placeholder="Ваш e-mail" required>
                     <textarea name="message" placeholder="Ваше сообщение" required></textarea>
                     <button type="submit" name="send">Отправить</button>
                 </form>
-            </div>
         </section>
     </main>
 @endsection
