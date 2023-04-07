@@ -2,7 +2,7 @@
     <div class="container header-container">
         <a href="main">
             <div class="header-logo">
-                <img src="{{ asset('asset/img/context/logo.svg') }}" alt="logo">
+                <img src="{{ asset('asset/img/context/logo-cat.svg') }}" alt="logo">
             </div>
         </a>
         <div class="header-btns">
