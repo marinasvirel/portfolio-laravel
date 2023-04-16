@@ -354,6 +354,7 @@ header {
 .competence-choose {
   display: flex;
   width: 30%;
+  margin-left: 10px;
 }
 
 /*---- competencies----</> */
